@@ -401,6 +401,7 @@ a {
 
 .popular .course-item .book-btn {
     border: none;
+    font-size: 1.4rem;
 }
 
 .popular .course-item .book-btn:hover {
@@ -669,4 +670,81 @@ a {
 .blog .dot.active {
     background-color: var(--primary-color);
     cursor: default;
+}
+
+/* Footer */
+
+.footer {
+    padding: 96px 135px 0;
+    background: #2e2100;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:first-child {
+    width: 35%;
+}
+
+.footer .desc {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.footer .socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.footer .title {
+    display: inline-block;
+    padding: 0 48px 14px 0;
+    border-bottom: 1px solid #59554b;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer .list {
+    margin-top: 28px;
+}
+
+.footer .list a {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+}
+
+.footer .list a:last-child {
+    margin-bottom: 0;
+}
+
+.footer .list strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer .copyright {
+    padding: 28px 0 28px;
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
 }
