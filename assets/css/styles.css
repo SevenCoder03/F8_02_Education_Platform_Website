@@ -731,7 +731,7 @@ a {
     line-height: 1.85;
 }
 
-.footer .list a:last-child {
+.footer .list li:last-child a {
     margin-bottom: 0;
 }
 
